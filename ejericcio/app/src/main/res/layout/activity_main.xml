@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:weightSum="3"
+    android:divider="@android:color/darker_gray"
+    android:showDividers="middle"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layoutDirection="ltr">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:fontFamily="monospace"
+        android:text="Helios y Artemisa Simulator"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@android:color/darker_gray"
+        android:focusable="true"
+        android:gravity="center"
+        android:hint="Ingrese su nombre"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:focusable="true"
+        android:padding="10dp"
+        android:text="Cambiar Dia/Noche"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        app:thumbTint="@android:color/holo_blue_light"
+        app:trackTint="@android:color/darker_gray" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Mostrar texto"
+        android:textColor="@android:color/white" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="216dp"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_navigation" />
+
+</LinearLayout>
+

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ejericcio</string>
+    <string name="edittext_hint">Ingresa tu texto</string>
+        <string name="switch_text">Activar opción</string>
+    <string name="bot_n_1">Botón 1</string>
+    <string name="bot_n2">Botón2</string>
+    <string name="escribe_aqu">Escribe aquí</string>
+    <string name="activar_opci_n">Activar opción</string>
+    <string name="ingrese_su_nombre">Ingrese su nombre</string>
+    <string name="activar_opci_nx">Activar opción</string>
+    <string name="s">Activar opción</string>
+</resources>
